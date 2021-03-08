@@ -1,6 +1,8 @@
 // @ts-check
-let fnameValue = prompt("Please enter your name", "Bob Ross")
-
-if (fnameValue != null) {
-    alert("Bonjour " + fnameValue + "! Comment allez-vous par ce matin radieux?")
-  }
+let subjectAge = Number(prompt("Veuillez indiquer vôtre âge, mon cher.", ""))
+if (subjectAge >= 18){
+  alert("Vous êtes majeur")
+}
+else {
+  alert("Vous êtes mineur")
+}
